@@ -1,0 +1,32 @@
+@import 'fonts';
+@import 'colors';
+@import 'header';
+@import 'main';
+@import 'footer';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+main {
+  flex: 1 0 auto;
+}
+header,
+footer{
+  flex: 0 0 auto;
+}
+section{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 375px;
+	max-width: 1200px;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@font-face {
+font-family: 'Myriad Pro Regular';
+src: url('fonts/MyriadPro-Regular.eot');
+src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+url('fonts/MyriadPro-Regular.woff') format('woff'),
+url('fonts/MyriadPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'font89aec2cc0b804667e95b1adc02e1ac4a';
+    
+    src:    url('https://nomail.com.ua/files/eot/89aec2cc0b804667e95b1adc02e1ac4a.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/89aec2cc0b804667e95b1adc02e1ac4a.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/89aec2cc0b804667e95b1adc02e1ac4a.woff2') format('woff2');
+}
+
+@font-face { font-family: 'Gotham-Black';  src: local('Gotham-Black'), url('https://nomail.com.ua/files/woff/89aec2cc0b804667e95b1adc02e1ac4a.woff') format('woff'); }
+$font-Lato: 14px/1.4em 'Lato', sans-serif;
+$font-Gottam: 14px/1.4em 'Gotham-Black', sans-serif;
+$font-Open-Sans: 14px/1.4em 'Open Sans', sans-serif;
+$font-Myriad-Pro: 14px/1.4em 'Myriad Pro Regular',sans-serif;

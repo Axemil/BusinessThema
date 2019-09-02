@@ -1,0 +1,45 @@
+// HEADER SECTION //
+@import 'fonts';
+@import 'colors';
+header{
+	font: $font-Lato;
+}
+.logo{
+	margin: 10px auto;
+	width: 50px;
+}
+.section-header ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.section-header li{
+	margin: 20px 0;
+}
+.section-header a{
+	padding: 10px 20px;
+	margin: 0 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration-line: none;
+	color: #9C9B9D;
+}
+.section-header a:hover{
+	transition: .3s;
+	background: $color-yellow;
+	color: #fff;
+}
+.active{
+	background: $color-yellow;
+}
+a.active{
+	color: #fff;
+}
+@media (min-width: 1100px) {
+	.section-header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

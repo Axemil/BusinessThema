@@ -1,0 +1,9 @@
+@import 'fonts';
+@import 'colors';
+footer p{
+	padding: 10px;
+	background: $color-blue;
+	font: $font-Open-Sans;
+	text-align: center;
+	color: #fff;
+}
